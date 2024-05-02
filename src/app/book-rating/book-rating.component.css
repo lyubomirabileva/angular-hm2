@@ -1,0 +1,93 @@
+  div {
+    padding: 20px;
+    border: 3px solid #9739FA;
+    border-radius: 5px;
+    background-color: #E9D8FC;
+    margin: 10px 0; 
+  }
+
+
+h2 {
+    font-size: 1.5em;
+    color: #310062;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1em;
+    color: #310062;
+    margin-bottom: 10px;
+  }
+  
+
+  span {
+    color: #9739FA;
+  }
+  
+
+  .button-container {
+    display: flex;
+    gap: 10px; 
+    margin-top: 10px; 
+  }
+  
+  .button-container button {
+    background-color: #FFFE9E;
+    color: #310062;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+  }
+  
+  .button-container button:hover {
+    background-color: #FFCE6B; 
+  }
+  
+  .button-container button:active {
+    background-color: #FDA900; 
+  }
+  
+
+  input {
+    display: block;
+    padding: 6px;
+    margin: 5px 0; 
+    border: 1px solid #AA55FF;
+    border-radius: 5px;
+  }
+  
+  button.update {
+    background-color: #310062;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+  }
+  
+  button.update:hover {
+    background-color: white; 
+    color: #310062;
+  }
+
+
+  .restart,
+  .finish {
+    background-color: #310062;
+    color: white;
+    padding: 10px 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+  }
+  
+  .restart:hover,
+  .finish:hover {
+    background-color: white;
+    color: #310062;
+  }
